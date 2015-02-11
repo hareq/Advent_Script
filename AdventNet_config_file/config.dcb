@@ -1,0 +1,5 @@
+neaip='192.168.71.130'
+ftpip='192.168.71.160'
+ftpuserName='nodeb'
+ftppassword='nodeb.1234'
+enodeb_version='100'

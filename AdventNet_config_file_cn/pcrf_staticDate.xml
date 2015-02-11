@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="GBK"?>
+<NrmFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="NrmFileFormat.xsd">
+    <FileHeader>
+        <InfoModelReferenced>BAOYUN-V1.0</InfoModelReferenced>
+        <DnPrefix>BAOYUN.BeiJing</DnPrefix>
+        <SenderName>BAOYUN BeiJing</SenderName>
+        <VendorName>vendorname</VendorName>
+        <DateTime>Wed Sep 04 14:17:01 GMT+08:00 2013</DateTime>
+    </FileHeader>
+    <Objects>
+        <ObjectType>ManagedElement</ObjectType>
+        <FieldName>
+            <N i="1">ManagedElementId</N>
+            <N i="2">ManagedElementUserLabel</N>
+            <N i="3">DnPrefix</N>
+            <N i="4">ManagedElementVendorName</N>
+            <N i="5">LocationName</N>
+            <N i="6">ManagedBy</N>
+            <N i="7">UserDefinedState</N>
+            <N i="8">SwVersion</N>
+            <N i="9">ManagedElementAdministrativeState</N>
+            <N i="10">ManagedElementOperationalState</N>
+            <N i="11">Version</N>
+            <N i="12">ManagementIpAddress</N>
+            <N i="13">HardwarePlatform</N>
+            <N i="14">PatchInfo</N>
+        </FieldName>
+        <FieldValue>
+            <Cm Dn="BAOYUN" UserLabel="B">
+                <V i="1">DraManagedElementIdvlue</V>
+                <V i="2">PCRF</V>
+                <V i="3">PCRF</V>
+                <V i="4">newpostcom</V>
+                <V i="5">shanghai</V>
+                <V i="6">DN</V>
+                <V i="7">Normal</V>
+                <V i="8">V2.1.0</V>
+                <V i="9">1</V>
+                <V i="10">1</V>
+                <V i="11">1</V>
+                <V i="12">SctpAssocLocalAddrvlue</V>
+                <V i="13">Dell</V>
+                <V i="14">None</V>
+            </Cm>
+        </FieldValue>
+    </Objects>
+	<Objects>
+        <ObjectType>InventoryUnitRack</ObjectType>
+        <FieldName>
+            <N i="1">InventoryUnitRackId</N>
+            <N i="2">InventoryUnitRackUserLabel</N>
+            <N i="3">InventoryUnitRackVendorUnitFamilyType</N>
+            <N i="4">InventoryUnitRackVendorUnitTypeNumber</N>
+            <N i="5">InventoryUnitRackVendorName</N>
+            <N i="6">InventoryUnitRackSerialNumber</N>
+            <N i="7">InventoryUnitRackVersionNumber</N>
+            <N i="8">InventoryUnitRackDateOfManufacture</N>
+            <N i="9">InventoryUnitRackDateOfLastService</N>
+            <N i="10">InventoryUnitRackManufacturerData</N>
+            <N i="11">RackPosition</N>
+        </FieldName>
+        <FieldValue>
+            <Cm Dn="BAOYUN" UserLabel="B">
+                <V i="1">1</V>
+                <V i="2">newpostcom</V>
+                <V i="3">PCRF</V>
+                <V i="4">newpostcom</V>
+                <V i="5">shanghai</V>
+                <V i="6">DN</V>
+                <V i="7">Normal</V>
+                <V i="8">V2.1.0</V>
+                <V i="9">1</V>
+                <V i="10">1</V>
+                <V i="11">1</V>
+            </Cm>
+        </FieldValue>
+    </Objects>
+	<Objects>
+        <ObjectType>InventoryUnitShelf</ObjectType>
+        <FieldName>
+            <N i="1">InventoryUnitShelfId</N>
+            <N i="2">InventoryUnitShelfUserLabel</N>
+            <N i="3">InventoryUnitShelfVendorUnitFamilyType</N>
+            <N i="4">InventoryUnitShelfVendorUnitTypeNumber</N>
+            <N i="5">InventoryUnitShelfVendorName</N>
+            <N i="6">InventoryUnitShelfSerialNumber</N>
+            <N i="7">InventoryUnitShelfVersionNumber</N>
+            <N i="8">InventoryUnitShelfDateOfManufacture</N>
+            <N i="9">InventoryUnitShelfDateOfLastService</N>
+            <N i="10">InventoryUnitShelfManufacturerData</N>
+            <N i="11">SlotsInformation</N>
+			<N i="12">ShelfPosition</N>
+        </FieldName>
+        <FieldValue>
+            <Cm Dn="BAOYUN" UserLabel="B">
+                <V i="1">1</V>
+                <V i="2">newpostcom</V>
+                <V i="3">PCRF</V>
+                <V i="4">newpostcom</V>
+                <V i="5">shanghai</V>
+                <V i="6">DN</V>
+                <V i="7">Normal</V>
+                <V i="8">V2.1.0</V>
+                <V i="9">1</V>
+                <V i="10">1</V>
+                <V i="11">1</V>
+				<V i="12">1</V>
+            </Cm>
+        </FieldValue>
+    </Objects>
+	<Objects>
+        <ObjectType>InventoryUnitPack</ObjectType>
+        <FieldName>
+            <N i="1">InventoryUnitPackId</N>
+            <N i="2">InventoryUnitPackUserLabel</N>
+            <N i="3">InventoryUnitPackVendorUnitFamilyType</N>
+            <N i="4">InventoryUnitPackVendorUnitTypeNumber</N>
+            <N i="5">InventoryUnitPackVendorName</N>
+            <N i="6">InventoryUnitPackSerialNumber</N>
+            <N i="7">InventoryUnitPackVersionNumber</N>
+            <N i="8">InventoryUnitPackDateOfManufacture</N>
+            <N i="9">InventoryUnitShelfDateOfLastService</N>
+            <N i="10">InventoryUnitPackManufacturerData</N>
+            <N i="11">PortsInformation</N>
+			<N i="12">PackPosition</N>
+			<N i="13">SlotsOccupied</N>
+        </FieldName>
+        <FieldValue>
+            <Cm Dn="BAOYUN" UserLabel="B">
+                <V i="1">1</V>
+                <V i="2">newpostcom</V>
+                <V i="3">PCRF</V>
+                <V i="4">newpostcom</V>
+                <V i="5">shanghai</V>
+                <V i="6">DN</V>
+                <V i="7">Normal</V>
+                <V i="8">V2.1.0</V>
+                <V i="9">1</V>
+                <V i="10">1</V>
+                <V i="11">1</V>
+				<V i="12">1</V>
+				<V i="13">1</V>
+            </Cm>
+        </FieldValue>
+    </Objects>
+		<Objects>
+        <ObjectType>InventoryUnitHost</ObjectType>
+        <FieldName>
+            <N i="1">InventoryUnitHostId</N>
+            <N i="2">InventoryUnitHostUserLabel</N>
+            <N i="3">InventoryUnitHostVendorUnitFamilyType</N>
+            <N i="4">InventoryUnitHostVendorUnitTypeNumber</N>
+            <N i="5">InventoryUnitHostVendorName</N>
+            <N i="6">InventoryUnitHostSerialNumber</N>
+            <N i="7">InventoryUnitHostVersionNumber</N>
+            <N i="8">InventoryUnitHostDateOfManufacture</N>
+            <N i="9">InventoryUnitHostDateOfLastService</N>
+            <N i="10">InventoryUnitHostManufacturerData</N>
+            <N i="11">HostPosition</N>
+			<N i="12">HostName</N>
+			<N i="13">NumberOfCpu</N>
+			<N i="14">MemSize</N>
+			<N i="15">HardDiskSize</N>
+        </FieldName>
+        <FieldValue>
+            <Cm Dn="BAOYUN" UserLabel="B">
+                <V i="1">1</V>
+                <V i="2">newpostcom</V>
+                <V i="3">PCRF</V>
+                <V i="4">newpostcom</V>
+                <V i="5">shanghai</V>
+                <V i="6">DN</V>
+                <V i="7">Normal</V>
+                <V i="8">V2.1.0</V>
+                <V i="9">1</V>
+                <V i="10">1</V>
+                <V i="11">1</V>
+				<V i="12">1</V>
+				<V i="13">1</V>
+				<V i="14">1</V>
+				<V i="15">1</V>
+            </Cm>
+        </FieldValue>
+    </Objects>
+	<Objects>
+        <ObjectType>InventoryUnitAccessory</ObjectType>
+        <FieldName>
+            <N i="1">InventoryUnitAccessoryId</N>
+            <N i="2">InventoryUnitAccessoryUserLabel</N>
+            <N i="3">InventoryUnitAccessoryVendorUnitFamilyType</N>
+            <N i="4">InventoryUnitAccessoryVendorUnitTypeNumber</N>
+            <N i="5">InventoryUnitAccessoryVendorName</N>
+            <N i="6">InventoryUnitAccessorySerialNumber</N>
+            <N i="7">InventoryUnitAccessoryVersionNumber</N>
+            <N i="8">InventoryUnitAccessoryDateOfManufacture</N>
+            <N i="9">InventoryUnitAccessoryDateOfLastService</N>
+            <N i="10">InventoryUnitAccessoryManufacturerData</N>
+            <N i="11">AccessoryPosition</N>
+			<N i="12">AccessoryName</N>
+			<N i="13">AccessoryType</N>
+			<N i="14">AddtionalInformation</N>
+        </FieldName>
+        <FieldValue>
+            <Cm Dn="BAOYUN" UserLabel="B">
+                <V i="1">1</V>
+                <V i="2">newpostcom</V>
+                <V i="3">PCRF</V>
+                <V i="4">newpostcom</V>
+                <V i="5">shanghai</V>
+                <V i="6">DN</V>
+                <V i="7">Normal</V>
+                <V i="8">V2.1.0</V>
+                <V i="9">1</V>
+                <V i="10">1</V>
+                <V i="11">1</V>
+				<V i="12">1</V>
+				<V i="13">1</V>
+				<V i="14">1</V>
+            </Cm>
+        </FieldValue>
+    </Objects>
+    <Objects>
+        <ObjectType>PcrfFunction</ObjectType>
+        <FieldName>
+            <N i="1">PcrfFunctionId</N>
+            <N i="2">PcrfFunctionUserLabel</N>
+            <N i="3">PcrfFunctionAdministrativeState</N>
+            <N i="4">PcrfFunctionOperationalState</N>
+            <N i="5">DiameterIdentity</N>
+            <N i="6">MaxGxMsg</N>
+			<N i="7">MaxSession</N>
+        </FieldName>
+        <FieldValue>
+			
+        <Cm>
+			<V i="1">DraManagedElementIdvlue</V>
+			<V i="2">new</V>
+			<V i="3">1</V>
+			<V i="4">1</V>
+			<V i="5">RHC1112</V>
+			<V i="6">600</V>
+			<V i="7">600</V>
+		</Cm>
+		</FieldValue>
+    </Objects>
+    <Objects>
+        <ObjectType>SctpAssoc</ObjectType>
+        <FieldName>
+            <N i="1">SctpAssocId</N>
+            <N i="2">SctpAssocUserLabel</N>
+            <N i="3">SctpAssocLocalAddr</N>
+            <N i="4">SctpAssocRemoteAddr</N>
+            <N i="5">SctpAssocAdministrativeState</N>
+            <N i="6">SctpAssocOperationalState</N>
+        </FieldName>
+        <FieldValue>
+			 <Cm>
+                <V i="1">1</V>
+                <V i="2" />
+                <V i="3">22:SctpAssocLocalAddrvlue</V>
+                <V i="4">22:192.168.74.222</V>
+                <V i="5">1</V>
+                <V i="6">1</V>
+            </Cm>
+       </FieldValue>
+    </Objects>
+    <Objects>
+        <ObjectType>EthernetPort</ObjectType>
+        <FieldName>
+            <N i="1">EthernetPortId</N>
+            <N i="2">EthernetPortUserLabel</N>
+            <N i="3">PortRate</N>
+            <N i="4">EthernetPortAdministrativeState</N>
+            <N i="5">EthernetPortOperationalState</N>
+            <N i="6">PortLocation</N>
+            <N i="7">FarPortLocation</N>
+            <N i="8">SignTransMedia</N>
+            <N i="9">MacAddress</N>
+            <N i="10">IpAddressList</N>
+        </FieldName>
+        <FieldValue>
+			<Cm>
+                <V i="1">1</V>
+                <V i="2" />
+                <V i="3">2056</V>
+                <V i="4">1</V>
+                <V i="5">1</V>
+                <V i="6">PCRF</V>
+                <V i="7">PCRF-1</V>
+                <V i="8">Optic</V>
+                <V i="9">21:FD:2F:0O:12:DH</V>
+                <V i="10">22:SctpAssocLocalAddrvlue</V>
+            </Cm>
+		</FieldValue>
+    </Objects>
+	  <Objects>
+        <ObjectType>EpRpDynGxPcrf</ObjectType>
+        <FieldName>
+            <N i="1">EpRpDynGxPcrfId</N>
+            <N i="2">EpRpDynGxPcrfUserLabel</N>
+            <N i="3">LocIpAddrList</N>
+            <N i="4">FarIpSubnetworkList</N>
+        </FieldName>
+        <FieldValue>
+			<Cm>
+                <V i="1">1</V>
+                <V i="2" />
+                <V i="3">SctpAssocLocalAddrvlue</V>
+                <V i="4">Diameter2</V>
+            </Cm>
+        </FieldValue>
+    </Objects>
+    <Objects>
+        <ObjectType>SprFunction</ObjectType>
+        <FieldName>
+            <N i="1">SprFunctionId</N>
+            <N i="2">SprFunctionUserLabel</N>
+            <N i="3">SprFunctionAdministrativeState</N>
+            <N i="4">SprFunctionOperationalState</N>
+            <N i="5">MaxSubNbr</N>
+        </FieldName>
+        <FieldValue>
+			<Cm>
+                <V i="1">1</V>
+                <V i="2" />
+                <V i="3">1</V>
+                <V i="4">1</V>
+                <V i="5">100</V>
+            </Cm>
+        </FieldValue>
+    </Objects>
+</NrmFile>

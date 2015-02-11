@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="GBK"?>
+<NrmFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="NrmFileFormat.xsd">
+    <FileHeader>
+        <InfoModelReferenced>BAOYUN-V1.0</InfoModelReferenced>
+        <DnPrefix>BAOYUN.BeiJing</DnPrefix>
+        <SenderName>BAOYUN BeiJing</SenderName>
+        <VendorName>vendorname</VendorName>
+        <DateTime>Wed Sep 04 14:17:01 GMT+08:00 2013</DateTime>
+    </FileHeader>
+    <Objects>
+        <ObjectType>ManagedElement</ObjectType>
+        <FieldName>
+            <N i="1">DraManagedElementId</N>
+            <N i="2">DraManagedElementUserLabel</N>
+            <N i="3">DraManagedElementDnPrefix</N>
+            <N i="4">DraManagedElementVendorName</N>
+            <N i="5">DraManagedElementLocationName</N>
+            <N i="6">DraManagedElementManagedBy</N>
+            <N i="7">DraManagedElementUserDefinedState</N>
+            <N i="8">DraManagedElementSwVersion</N>
+            <N i="9">DraManagedElementAdministrativeState</N>
+            <N i="10">DraManagedElementOperationalState</N>
+            <N i="11">DraManagedElementVersion</N>
+            <N i="12">DraManagedElementManagementIpAddress</N>
+            <N i="13">DraManagedElementHardwarePlatform</N>
+            <N i="14">DraManagedElementPatchInfo</N>
+        </FieldName>
+        <FieldValue>
+            <Cm Dn="BAOYUN" UserLabel="B">
+                <V i="1">DraManagedElementIdvlue</V>
+                <V i="2">DRA</V>
+                <V i="3">DRA</V>
+                <V i="4">newpostcom</V>
+                <V i="5">shanghai</V>
+                <V i="6">DN</V>
+                <V i="7">Normal</V>
+                <V i="8">V2.1.0</V>
+                <V i="9">1</V>
+                <V i="10">1</V>
+                <V i="11">1</V>
+                <V i="12">DraSctpAssocIdvlue</V>
+                <V i="13">Dell</V>
+                <V i="14">None</V>
+            </Cm>
+        </FieldValue>
+    </Objects>
+    <Objects>
+        <ObjectType>DraFunction</ObjectType>
+        <FieldName>
+            <N i="1">DraFunctionId</N>
+            <N i="2">DraFunctionUserLabel</N>
+            <N i="3">DraFunctionAdministrativeState</N>
+            <N i="4">DraFunctionOperationalState</N>
+            <N i="5">DraFunctionDiameterIdentity</N>
+            <N i="6">DraCapacity</N>
+        </FieldName>
+        <FieldValue>
+			
+        <Cm><V i="1">DraManagedElementIdvlue</V><V i="2">new</V><V i="3">1</V><V i="4">1</V><V i="5">RHC1112</V><V i="6">600</V></Cm></FieldValue>
+    </Objects>
+    <Objects>
+        <ObjectType>DraSctpAssoc</ObjectType>
+        <FieldName>
+            <N i="1">DraSctpAssocId</N>
+            <N i="2">DraSctpAssocUserLabel</N>
+            <N i="3">DraSctpAssocLocalAddr</N>
+            <N i="4">DraSctpAssocRemoteAddr</N>
+            <N i="5">DraSctpAssocAdministrativeState</N>
+            <N i="6">DraSctpAssocOperationalState</N>
+        </FieldName>
+        <FieldValue>
+			 <Cm>
+                <V i="1">1</V>
+                <V i="2" />
+                <V i="3">22:DraSctpAssocIdvlue</V>
+                <V i="4">22:192.168.74.223</V>
+                <V i="5">1</V>
+                <V i="6">1</V>
+            </Cm>
+       </FieldValue>
+    </Objects>
+    <Objects>
+        <ObjectType>DraEthernetPort</ObjectType>
+        <FieldName>
+            <N i="1">DraEthernetPortId</N>
+            <N i="2">DraEthernetPortUserLabel</N>
+            <N i="3">DraEthernetPortPortRate</N>
+            <N i="4">DraEthernetPortAdministrativeState</N>
+            <N i="5">DraEthernetPortOperationalState</N>
+            <N i="6">DraEthernetPortPortLocation</N>
+            <N i="7">DraEthernetPortFarPortLocation</N>
+            <N i="8">DraEthernetPortSignTransMedia</N>
+            <N i="9">DraEthernetPortMacAddress</N>
+            <N i="10">DraEthernetPortIpAddressList</N>
+        </FieldName>
+        <FieldValue>
+			<Cm>
+                <V i="1">1</V>
+                <V i="2" />
+                <V i="3">2056</V>
+                <V i="4">1</V>
+                <V i="5">1</V>
+                <V i="6">DRA</V>
+                <V i="7">DRA-1</V>
+                <V i="8">Optic</V>
+                <V i="9">21:FD:2F:0O:12:DH</V>
+                <V i="10">22:DraEthernetPortIpAddressListvlue</V>
+            </Cm>
+		</FieldValue>
+    </Objects>
+	<Objects>
+        <ObjectType>DraDiameterPair</ObjectType>
+        <FieldName>
+            <N i="1">DraDiameterPairId</N>
+            <N i="2">DraDiameterPairUserLabel</N>
+            <N i="3">DraDiameterPairLocalFqdn</N>
+            <N i="4">DraDiameterPairRemoteFqdn</N>
+        </FieldName>
+        <FieldValue>
+			<Cm>
+                <V i="1">1</V>
+                <V i="2" />
+                <V i="3">Diameter1</V>
+                <V i="4">Diameter2</V>
+            </Cm>
+        </FieldValue>
+    </Objects>
+	<Objects>
+        <ObjectType>DraDiameterLink</ObjectType>
+        <FieldName>
+            <N i="1">DraDiameterLinkId</N>
+            <N i="2">DraDiameterLinkUserLabel</N>
+            <N i="3">DraDiameterLinkRelatedSctpAssoc</N>
+        </FieldName>
+        <FieldValue>
+			<Cm>
+                <V i="1">1</V>
+                <V i="2" />
+                <V i="3">Diameter1</V>
+            </Cm>
+        </FieldValue>
+    </Objects>
+	<Objects>
+        <ObjectType>DraInventoryUnitRack</ObjectType>
+        <FieldName>
+            <N i="1">DraInventoryUnitRackId</N>
+            <N i="2">DraInventoryUnitRackUserLabel</N>
+            <N i="3">DraInventoryUnitRackVendorUnitFamilyType</N>
+            <N i="4">DraInventoryUnitRackVendorUnitTypeNumber</N>
+            <N i="5">DraInventoryUnitRackVendorName</N>
+            <N i="6">DraInventoryUnitRackSerialNumber</N>
+            <N i="7">DraInventoryUnitRackVersionNumber</N>
+            <N i="8">DraInventoryUnitRackDateOfManufacture</N>
+            <N i="9">DraInventoryUnitRackDateOfLastService</N>
+            <N i="10">DraInventoryUnitRackManufacturerData</N>
+            <N i="11">DraInventoryUnitRackRackPosition</N>
+        </FieldName>
+        <FieldValue>
+            <Cm Dn="BAOYUN" UserLabel="B">
+                <V i="1">1</V>
+                <V i="2">newpostcom</V>
+                <V i="3">DRA</V>
+                <V i="4">newpostcom</V>
+                <V i="5">shanghai</V>
+                <V i="6">DN</V>
+                <V i="7">Normal</V>
+                <V i="8">V2.1.0</V>
+                <V i="9">1</V>
+                <V i="10">1</V>
+                <V i="11">1</V>
+            </Cm>
+        </FieldValue>
+    </Objects>
+	<Objects>
+        <ObjectType>DraInventoryUnitShelf</ObjectType>
+        <FieldName>
+            <N i="1">DraInventoryUnitShelfId</N>
+            <N i="2">DraInventoryUnitShelfUserLabel</N>
+            <N i="3">DraInventoryUnitShelfVendorUnitFamilyType</N>
+            <N i="4">DraInventoryUnitShelfVendorUnitTypeNumber</N>
+            <N i="5">DraInventoryUnitShelfVendorName</N>
+            <N i="6">DraInventoryUnitShelfSerialNumber</N>
+            <N i="7">DraInventoryUnitShelfVersionNumber</N>
+            <N i="8">DraInventoryUnitShelfDateOfManufacture</N>
+            <N i="9">DraInventoryUnitShelfDateOfLastService</N>
+            <N i="10">DraInventoryUnitShelfManufacturerData</N>
+            <N i="11">DraSlotsInformation</N>
+			<N i="12">DraShelfPosition</N>
+        </FieldName>
+        <FieldValue>
+            <Cm Dn="BAOYUN" UserLabel="B">
+                <V i="1">1</V>
+                <V i="2">newpost</V>
+                <V i="3">DRA</V>
+                <V i="4">newpostcom</V>
+                <V i="5">shanghai</V>
+                <V i="6">DN</V>
+                <V i="7">Normal</V>
+                <V i="8">V2.1.0</V>
+                <V i="9">1</V>
+                <V i="10">1</V>
+                <V i="11">1</V>
+				<V i="12">1</V>
+            </Cm>
+        </FieldValue>
+    </Objects>
+	<Objects>
+        <ObjectType>DraInventoryUnitPack</ObjectType>
+        <FieldName>
+            <N i="1">DraInventoryUnitPackId</N>
+            <N i="2">DraInventoryUnitPackUserLabel</N>
+            <N i="3">DraInventoryUnitPackVendorUnitFamilyType</N>
+            <N i="4">DraInventoryUnitPackVendorUnitTypeNumber</N>
+            <N i="5">DraInventoryUnitPackVendorName</N>
+            <N i="6">DraInventoryUnitPackSerialNumber</N>
+            <N i="7">DraInventoryUnitPackVersionNumber</N>
+            <N i="8">DraInventoryUnitPackDateOfManufacture</N>
+            <N i="9">DraInventoryUnitShelfDateOfLastService</N>
+            <N i="10">DraInventoryUnitPackManufacturerData</N>
+            <N i="11">DraPortsInformation</N>
+			<N i="12">DraPackPosition</N>
+			<N i="13">DraSlotsOccupied</N>
+        </FieldName>
+        <FieldValue>
+            <Cm Dn="BAOYUN" UserLabel="B">
+                <V i="1">1</V>
+                <V i="2">newpostcom</V>
+                <V i="3">DRA</V>
+                <V i="4">newpostcom</V>
+                <V i="5">shanghai</V>
+                <V i="6">DN</V>
+                <V i="7">Normal</V>
+                <V i="8">V2.1.0</V>
+                <V i="9">1</V>
+                <V i="10">1</V>
+                <V i="11">1</V>
+				<V i="12">1</V>
+				<V i="13">1</V>
+            </Cm>
+        </FieldValue>
+    </Objects>
+		<Objects>
+        <ObjectType>DraInventoryUnitHost</ObjectType>
+        <FieldName>
+            <N i="1">DraInventoryUnitHostId</N>
+            <N i="2">DraInventoryUnitHostUserLabel</N>
+            <N i="3">DraInventoryUnitHostVendorUnitFamilyType</N>
+            <N i="4">DraInventoryUnitHostVendorUnitTypeNumber</N>
+            <N i="5">DraInventoryUnitHostVendorName</N>
+            <N i="6">DraInventoryUnitHostSerialNumber</N>
+            <N i="7">DraInventoryUnitHostVersionNumber</N>
+            <N i="8">DraInventoryUnitHostDateOfManufacture</N>
+            <N i="9">DraInventoryUnitHostDateOfLastService</N>
+            <N i="10">DraInventoryUnitHostManufacturerData</N>
+            <N i="11">DraHostPosition</N>
+			<N i="12">DraHostName</N>
+			<N i="13">DraNumberOfCpu</N>
+			<N i="14">DraMemSize</N>
+			<N i="15">DraHardDiskSize</N>
+        </FieldName>
+        <FieldValue>
+            <Cm Dn="BAOYUN" UserLabel="B">
+                <V i="1">1</V>
+                <V i="2">newpostcom</V>
+                <V i="3">DRA</V>
+                <V i="4">newpostcom</V>
+                <V i="5">shanghai</V>
+                <V i="6">DN</V>
+                <V i="7">Normal</V>
+                <V i="8">V2.1.0</V>
+                <V i="9">1</V>
+                <V i="10">1</V>
+                <V i="11">1</V>
+				<V i="12">1</V>
+				<V i="13">1</V>
+				<V i="14">1</V>
+				<V i="15">1</V>
+            </Cm>
+        <Cm><V i="1">2</V><V i="2" /><V i="3" /><V i="4" /><V i="5" /><V i="6" /><V i="7" /><V i="8" /><V i="9" /><V i="10" /><V i="11" /><V i="12" /><V i="13">0</V><V i="14">0</V><V i="15">0</V></Cm></FieldValue>
+    </Objects>
+	<Objects>
+        <ObjectType>DraInventoryUnitAccessory</ObjectType>
+        <FieldName>
+            <N i="1">DraInventoryUnitAccessoryId</N>
+            <N i="2">DraInventoryUnitAccessoryUserLabel</N>
+            <N i="3">DraInventoryUnitAccessoryVendorUnitFamilyType</N>
+            <N i="4">DraInventoryUnitAccessoryVendorUnitTypeNumber</N>
+            <N i="5">DraInventoryUnitAccessoryVendorName</N>
+            <N i="6">DraInventoryUnitAccessorySerialNumber</N>
+            <N i="7">DraInventoryUnitAccessoryVersionNumber</N>
+            <N i="8">DraInventoryUnitAccessoryDateOfManufacture</N>
+            <N i="9">DraInventoryUnitAccessoryDateOfLastService</N>
+            <N i="10">DraInventoryUnitAccessoryManufacturerData</N>
+            <N i="11">DraAccessoryPosition</N>
+			<N i="12">DraAccessoryName</N>
+			<N i="13">DraAccessoryType</N>
+			<N i="14">DraAddtionalInformation</N>
+        </FieldName>
+        <FieldValue>
+            <Cm Dn="BAOYUN" UserLabel="B">
+                <V i="1">1</V>
+                <V i="2">newpostcom</V>
+                <V i="3">DRA</V>
+                <V i="4">newpostcom</V>
+                <V i="5">shanghai</V>
+                <V i="6">DN</V>
+                <V i="7">Normal</V>
+                <V i="8">V2.1.0</V>
+                <V i="9">1</V>
+                <V i="10">1</V>
+                <V i="11">1</V>
+				<V i="12">1</V>
+				<V i="13">1</V>
+				<V i="14">1</V>
+            </Cm>
+        </FieldValue>
+    </Objects>
+
+</NrmFile>
